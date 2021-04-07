@@ -14,7 +14,7 @@ html {
   height: 300px;
   object-fit: cover;
   cursor: pointer;
-  border-radius: 19px;
+  border-radius: 0px;
 }
 
 .search-form {
@@ -31,7 +31,7 @@ html {
   font-size: 28px;
   line-height: 2;
   margin: 20px;
-  border-radius: 121px;
+  border-radius: 0px;
   background-color: rgba(165, 205, 221, 0.54);
   border: none;
   outline: none;
@@ -51,7 +51,7 @@ html {
   -moz-box-shadow: 35px 18px 97px -34px rgba(74, 171, 191, 0.66);
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 15px;
-  border-radius: 19px;
+  border-radius: 0px;
 }
 
 .photo-card span {
