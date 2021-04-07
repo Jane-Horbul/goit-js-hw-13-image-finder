@@ -5,7 +5,7 @@ export default class PixabayApi {
     }
 
     fetchImages() {
-        const API_KEY = '20657531-55ab2713c33e5dcd49ca55cc6';
+        const API_KEY = '21053847-5c7f7edd087a11e0f877b9ef2';
         const BASE_URL = 'https://pixabay.com/api/';
         return fetch(`${BASE_URL}?key=${API_KEY}&q=${this.searchQuery}&page=${this.page}&per_page=12&image_type=photo&pretty=true`)
             .then(rawData => rawData.json())
